@@ -10,8 +10,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^1.9.0",
     "react": "19.0.0",
-    "react-native": "0.79.2"
+    "react-native": "0.79.2",
+    "react-native-config": "^1.5.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -35,5 +37,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@4.2.2"
 }
