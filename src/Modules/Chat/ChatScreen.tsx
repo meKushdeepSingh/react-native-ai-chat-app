@@ -1,7 +1,8 @@
 import React from 'react';
 import {View} from 'react-native';
 import {chatScreenStyles} from './ChatScreen.styles';
-import {Header} from '../../common';
+import {Header} from '@/common';
+import {MessageList} from './components';
 
 const ChatScreen: React.FC = () => {
   return (
@@ -10,6 +11,7 @@ const ChatScreen: React.FC = () => {
       <Header />
 
       {/* Chat UI components will go here */}
+      <MessageList />
     </View>
   );
 };
