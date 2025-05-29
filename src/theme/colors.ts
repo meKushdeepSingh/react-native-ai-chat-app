@@ -1,18 +1,25 @@
 export const colors = {
-  primary: '#6200ee',
-  primaryVariant: '#3700b3',
-  secondary: '#03dac6',
-  secondaryVariant: '#018786',
-  background: '#f6f6f6',
-  surface: '#ffffff',
-  error: '#b00020',
-  onPrimary: '#ffffff',
-  onSecondary: '#000000',
-  onBackground: '#000000',
-  onSurface: '#000000',
-  onError: '#ffffff',
-  textPrimary: '#000000',
-  textSecondary: '#616161',
-  textDisabled: '#9e9e9e',
-  borderColor: '#e0e0e0',
+  // Primary & Accent Colors
+  primary: '#4285F4', // A clean, vibrant Google Blue, often associated with AI/tech.
+  primaryVariant: '#1967D2', // A slightly darker shade for interaction states (e.g., pressed buttons).
+  secondary: '#34A853', // A calming Google Green for secondary actions or success states.
+  secondaryVariant: '#0F9D58', // A darker green for secondary interaction states.
+
+  // Backgrounds & Surfaces
+  background: '#F8F9FA', // Off-white background, slightly softer than pure white.
+  surface: '#FFFFFF', // Pure white for card backgrounds, message bubbles, etc., for crispness.
+
+  // Text Colors
+  onPrimary: '#FFFFFF', // White text for primary colored elements.
+  onSecondary: '#FFFFFF', // White text for secondary colored elements.
+  onBackground: '#202124', // Dark charcoal for main text on the background, good readability.
+  onSurface: '#202124', // Dark charcoal for main text on surfaces.
+  textPrimary: '#202124', // Main body text.
+  textSecondary: '#5F6368', // Lighter gray for secondary information, timestamps, captions.
+  textDisabled: '#BCC0C4', // Very light gray for disabled elements or placeholder text.
+
+  // Other UI Elements
+  error: '#EA4335', // A clear, distinct Google Red for error messages.
+  onError: '#FFFFFF', // White text on error colored elements.
+  borderColor: '#DADBDE', // A subtle light gray for borders, dividers, and separators.
 };
