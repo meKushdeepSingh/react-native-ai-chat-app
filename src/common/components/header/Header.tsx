@@ -1,8 +1,9 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 import {headerStyles} from './Header.styles';
 import {Button} from '../button';
-import IcBack from '../../assets/icons/IcBack.svg'; // Adjust the import path as necessary
+import IcBack from '@/assets/icons/IcBack.svg'; // Adjust the import path as necessary
+import {colors} from '@/theme';
 
 const Header: React.FC = () => {
   return (
@@ -10,13 +11,13 @@ const Header: React.FC = () => {
       {/* Header Left-side view */}
       <View style={headerStyles.leftView}>
         <Button>
-          <IcBack />
+          <IcBack height={24} width={24} fill={colors.onPrimary} />
         </Button>
       </View>
 
       {/* Header content can go here, such as a title or logo */}
       <View style={headerStyles.titleView}>
-        <View style={headerStyles.titleText}>AI Chat App</View>
+        <Text style={headerStyles.titleText}>AI Chat App</Text>
       </View>
       {/* Additional header elements like buttons can be added here */}
     </View>

@@ -5,14 +5,25 @@ export const headerStyles = StyleSheet.create({
   mainView: {
     width: '100%',
     height: 60,
-    backgroundColor: colors.onPrimary,
+    backgroundColor: colors.primary,
     justifyContent: 'space-between',
     alignItems: 'center',
     flexDirection: 'row',
-    paddingHorizontal: 16,
   },
-  title: {
+  leftView: {
+    width: 60,
+    height: 60,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  titleView: {
+    flex: 1,
+    justifyContent: 'center',
+    paddingHorizontal: 8,
+  },
+  titleText: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: colors.onPrimary,
   },
 });
