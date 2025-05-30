@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <View style={headerStyles.mainView}>
       {/* Header Left-side view */}
       <View style={headerStyles.leftView}>
-        <Button>
+        <Button size="small" variant="transparent" onPress={() => {}}>
           <IcBack height={24} width={24} fill={colors.accent} />
         </Button>
       </View>

@@ -3,6 +3,7 @@ import React, {FC} from 'react';
 import {FlatList, View} from 'react-native';
 import {MessageBubble} from './MessageBubble';
 import {messageListStyles} from './styles';
+import {ReplyingIndicator} from './ReplyingIndicator';
 
 export type MessageListProps = {};
 
@@ -75,6 +76,8 @@ const MessageList: FC<MessageListProps> = () => {
         contentContainerStyle={messageListStyles.contentContainer}
         showsVerticalScrollIndicator={false}
       />
+
+      <ReplyingIndicator />
     </View>
   );
 };
