@@ -24,6 +24,6 @@ export const headerStyles = StyleSheet.create({
   titleText: {
     fontSize: 20,
     fontWeight: 'bold',
-    color: colors.onPrimary,
+    color: colors.textSecondary,
   },
 });
